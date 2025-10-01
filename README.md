@@ -1,4 +1,9 @@
-This section activity is intended to introduce you to many of the tools and workflows that we'll use in CMPM 121, Game Development Patterns.
+Section activity for 10/1/2025, Edited by Neila Miranda:
+Intended to introduce many of the tools and workflows that will be use in CMPM 121.
+
+The project is to make the counter update in the console log, however there is not chnage in the page visually and the counter stays the same.
+
+Bellow are some of the key tools and workflows for me to refrence later:
 
 Key tools:
 
@@ -17,28 +22,3 @@ Key workflows:
 - Committing and pushing your change to your remote repository on GitHub, verifying that the deployment succeeds.
 - Removing this introductory documentation and replacing it with your own so that your project represents your voice, not that of the course staff. (Students: Don't let _this_ README.md be the only documentation in your project!)
 - Repeating the editing-to-publishing process to build familiarity with the overall workflow.
-
-## Getting Started
-
-With Codespaces (or another environment supporting devcontainers):
-3. Run `deno task dev` to start the development server
-
-Without Codespaces (local VS Code):
-
-1. Install the [Deno](https://docs.deno.com/runtime/getting_started/installation/) runtime.
-2. Install the Deno VS Code extension (must be done only after installing Deno runtime).
-3. Run `./setup-hooks.sh` to enable pre-commit quality checks
-4. Run `deno task dev` to start the development server
-
-The setup script configures Git hooks to automatically run formatting, linting, and type checking before commits.
-
-## Deployment
-
-This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
-
-### Setup GitHub Pages Deployment
-
-1. Go to your repository's Settings → Pages
-2. Under "Source", select "GitHub Actions"
-3. The workflow will automatically deploy on pushes to the `main` branch
-4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
